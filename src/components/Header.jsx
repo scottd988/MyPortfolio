@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 function Header() {
     const currentPage = useLocation().pathname;
 
-    handleNavClick = (page) => {
+    const handleNavLinkClick = (page) => {
         // Handle navigation click
         const navbar = document.getElementById('responsive-navbar-nav');
         if (navbar.classList.contains('show')) {
@@ -54,3 +54,5 @@ function Header() {
         </Navbar>
     )
 }
+
+export default Header;
