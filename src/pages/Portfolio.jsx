@@ -1,6 +1,9 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import pixelPalsScreenshot from '../assets/pixelPalsScreenshot.png';
+import lunaSleepTrackerScreenshot from '../assets/lunaSleepTracker.png';
+import gameHarbour from '../assets/gameHarbour.png';
 
 export default function Portfolio() {
     const projects = [
@@ -8,10 +11,26 @@ export default function Portfolio() {
             title: "Pixel Pals",
             repoLink: "https://github.com/mathilde-01/pixel-paws",
             deployedLink: "https://pixel-paws-n6iq.onrender.com/",
-            imageFile: pixelpalsScreenshot,
+            imageFile: pixelPalsScreenshot,
             description: "A MERN stack virtual 3D pet simulator where a user can adopt and play with a pet. The project utilizes Three.js for the model and animation rendering.",
             role: "Backend focused, I worked on resolvers and mutations as well as debugging and error handling."
-          }]
+          },
+          {
+              title: "Luna Sleep Tracker",
+              repoLink: "https://github.com/mathilde-01/luna-sleep-tracker",
+              deployedLink: "https://mathilde-01.github.io/luna-sleep-tracker/",
+              imageFile: lunaSleepTrackerScreenshot,
+              description: "A MERN stack application where a user can track their sleep schedule with a calendar that provides a moon illumination forecast, all built in the front end using local storage.",
+              role: "HTML structure, used Bulma framework for forms"
+          },
+        {
+            title: "GameHarbour",
+            repoLink: "https://github.com/Akusluch/Game-Harbour",
+            deployedLink: "https://game-harbour-123-8c07ddc3abc7.herokuapp.com/",
+            imageFile: gameHarbour,
+            description: "A MERN stack application where a user can search for video games and add them to their profile. The application also includes a game review section where users can post their own reviews.",
+            role: "Built the entire front end using React, including the use of a custom hook to fetch data from the backend."
+        }]
           return (
             <div id="portfolio">
             <Row xs={1} md={2} className="g-4 m-3">
