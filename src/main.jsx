@@ -11,6 +11,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const router = createBrowserRouter([
   {
