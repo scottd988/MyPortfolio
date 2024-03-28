@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Pixelify sans", Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -22,11 +22,19 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--darkGreen);
   text-decoration: inherit;
+  transition: color 0.3s ease;
 }
+
 a:hover {
-  color: #535bf2;
+  color: var(--yellow);
+}
+
+.hero {
+  background-color: var(--light-green);
+  color: var(--cream);
+  padding: 50px 20px;
 }
 
 body {
@@ -76,4 +84,27 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.frame {
+  border: 5px solid var(--dark-green);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+#headshot {
+  max-width: 250px;
+  border-radius: 50%;
+  border: 3px solid var(--dark-green);
+  padding: 5px;
+}
+#about {
+  padding: 50px 20px;
+  background-color: var(--cream);
+  color: var(--dark-green);
+}
+.smallheader {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--yellow);
 }

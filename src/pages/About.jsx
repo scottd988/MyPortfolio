@@ -12,7 +12,7 @@ export default function About() {
         <div>
         <div className="hero d-flex flex-column justify-content-center text-center">
           <div className="frame d-flex flex-column align-self-center align-items-center justify-content-center mb-5 p-5">
-            <img src= {pixelGuy} class="mb-1" id="pixel-portrait" alt="pixel-portrait" />
+            <img src= {pixelGuy} className="mb-1" id="pixel-portrait" alt="pixel-portrait" />
             </div>
           
           <div>
@@ -32,8 +32,8 @@ export default function About() {
             <h2 id="head2">Customization</h2>
               <p> My first introduction to web development was in highschool, when a friend insisted on me taking a computer science class. Those early experiences with Java were the first steps to me eventually becoming a web developer. I had originally went to school to study mathematics, but soon after graduating I found myself wanting more. I had decided to sign up for the 
 <a href="https://bootcamp.sas.upenn.edu/coding/" target="_blank"> full-stack 
-                developer bootcamp</a> through the University of Pennsylvania.</p>
-              <p>As a kid I worked a lot with my Dad, who works in home improvement. I learned very early the satisfaction of seeing a project through to the end. Although I don't miss working on a roof on a hot summer day, I am now able to find that same satisfaction through coding. I am very passionate in coding and learning, and in the future I hope to be able to make many ideas become reality through coding. </p> 
+                developer bootcamp</a> through the University of Pennsylvania. </p>
+              <p>Growing up I worked a lot with my Dad, who works in home improvement. I learned very early the satisfaction of seeing a project through to the end. Although much different than working on a roof, I am now able to find a similar satisfaction through coding. I am very passionate in coding and learning, and plan to learn and pursue more. </p> 
             </Col>
           </Row>
         </Container>
