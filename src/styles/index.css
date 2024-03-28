@@ -73,16 +73,22 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@media (max-width: 768px) {
+  .hero, #about {
+    padding: 30px 15px;
   }
-  a:hover {
-    color: #747bff;
+
+  .frame {
+    margin-bottom: 20px;
   }
-  button {
-    background-color: #f9f9f9;
+
+  .home-svg svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  #about-text p {
+    font-size: 0.95rem;
   }
 }
 
@@ -107,4 +113,11 @@ button:focus-visible {
   font-weight: 700;
   letter-spacing: 1px;
   color: var(--yellow);
+}
+#head1, #head2 {
+  color: var(--dark-green);
+}
+
+#about-text p {
+  text-align: justify;
 }
