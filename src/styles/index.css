@@ -121,3 +121,13 @@ button:focus-visible {
 #about-text p {
   text-align: justify;
 }
+.icon {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  margin: 10px; /* Adjust the spacing as needed */
+  display: inline-block;
+  vertical-align: middle;
+}
+#contact-header{ 
+  background: beige;
+}
